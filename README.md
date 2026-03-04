@@ -1,6 +1,6 @@
 # Honoraires Batch
 
-Application Spring Batch pour le calcul automatique des honoraires des intermédiaires (cabinets de recouvrement et avocats).
+Partie Batch de la plateforme intégrée pour la gestion des prestations et honoraires des intermédiaires de justice  
 
 ## Fonctionnalités
 - Lecture de fichiers CSV contenant les dossiers
@@ -16,5 +16,4 @@ Application Spring Batch pour le calcul automatique des honoraires des interméd
 
 ## Configuration
 1. Créer une base PostgreSQL nommée `recouvrement_batch` sur le port 5433
-2. Modifier `application.properties` si nécessaire
 3. Exécuter avec `./mvnw spring-boot:run`
